@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Chandani Sahu's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Play:wght@400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+        body {
+            font-family: "play", sans-serif;
+            font-size: 20px;
+            background: linear-gradient(135deg, #6a1b9a, #8e24aa, #ab47bc, #d31b90bd);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+     .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            background: transparent;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid white;
+        }
+         section{
+           background-color: #903cc3;
+           padding: 20px;
+           border-radius: 10px;
+           margin-bottom: 20px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+           padding: 20px;
+           flex: calc(30% - 20px);
+           transition: transform 0.3s ease;
+       
+        }
+        section:hover{
+             transform:translateY(-10px);       
+           
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        
+         section h2{
+            font-family: Poppins, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 40px; 
+         }
+         section img:hover{
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+         }
+         section a{
+            color: #fff;
+            background-color: #6a1b9a;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+         }
+         section a:hover{
+            background-color: #4a0d67;
+        }
+        #TGC_Detail {
+            color: white;
+            background:transparent;
+            font-size: 12px;
+            margin:0;
+            padding:5px;
+        }
+         section i{
+            color: white;
+            font-size: 25px;
+            margin-right: 10px;
+         }
+        
+         .banner {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        } 
+       
+         
+    </style>
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="photos/profilePhoto.jpeg" alt="Chandani Sahu" class="profile-photo"title="Chandani Sahu">
+        <section >
+            <h1 style="font-family: Sevillana,cursive;font-weight: 500; font-size: 80px; ">Chandani Sahu</h1>
+            <p>B.Tech in Computer Science & Engineering</p>
+        </section >
+
+        <div class="details">
+            <section>
+                <h2 >About Me</h2>
+                <p>I am doing B.Tech in Computer Science and Engineering. My average CGPA till the second year has been
+                    9.7 ( in 10 scale ) . I have scored 96% in 10th and 92% in 12th grade in CGBSE ( PCM stream ) . I
+                    have been good in Effective Communication , Presentation and Group Discussion like things.</p>
+            </section>
+            <section>
+                <h2 >Skills</h2>
+                <p><i class="fab fa-js"></i> JavaScript</p>
+                <p><i class="fab fa-java"></i> Java</p>
+                <p><i class="fas fa-c"></i> C</p>
+                <p><i class="fas fa-cplusplus"></i> C++</p>
+                <p><i class="fab fa-react"></i> React.js</p>
+                <p><i class="fab fa-node-js"></i> Express.js</p>
+                <p><i class="fas fa-database"></i> MongoDB</p>
+                <p><i class="fab fa-git"></i> Git</p>
+                <p><i class="fab fa-github"></i> GitHub</p>
+            </section>
+            <section>
+                <h2 >Achievements</h2>
+
+                <p><i class="fa fa-trophy"></i> Selected in TGC Hackathon organized by Ministry of Education<br/>(Govt of
+                    India).<a href="TGC-Detail.html" id="TGC_Detail" target="_blank">Details</a></p>
+                <p><i class="fa fa-trophy"></i> 1st rank certificate by CEO of CREDA (Chhattisgarh Renewable Energy
+                    Development Agency) in Poster Making .</p>
+                    
+                <p><i class="fa fa-trophy"></i> 2nd rank in Reel Making competition in annual funtion , Mats <br/> University 2024.</p>
+
+            </section>
+        </div>
+           <section>
+            <h2>Gallery</h2>
+            <img src="photos/CREDA-prize.jpeg" width="700px" height="auto">
+                    <p>Mr. Rajesh Rana Sir , IAS Officer & CEO of CREDA <br>( Chhattigarh Renewable Energy and Development Agency )</p>
+           </section>
+        <section>
+            <h2 >Contact</h2>
+            <a href="https://www.linkedin.com/in/chandani-sahu-a04555266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/ChandaniSahu" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <br>
+            <a href="tel:6261956824"><i class="fas fa-phone"></i> 6261956824</a>
+            <a href="mailto:rrrsahu2005@gmail.com"><i class="fas fa-envelope"></i> rrrsahu2005@gmail.com</a>
+        </section>
+
+        
+
+        <section>
+            <h2 >Certificates</h2>
+            <a href="https://drive.google.com/file/d/1Pvxq8kDXYJcR3l8IdaQNThapEWcLT2FU/view" target="_blank">Academic</a>
+            <a href="https://drive.google.com/file/d/1q69GPVNY8nc5M9yLvfC6aeEwXXMsdGJG/view?usp=drive_link" target="_blank">Cultural</a>
+            <a href="https://drive.google.com/file/d/1S_aU7vqHUwKqMNJxcU6FzyR9m3W71Lvj/view" target="_blank">CV</a>
+        </section>
+
+        <br><br><br>
+
+        <p class="banner">&copy; 2024 Chandani Sahu. All rights reserved.</p>
+
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("Portfolio page loaded");
+        });
+    </script>
+</body>
+
+</html>
